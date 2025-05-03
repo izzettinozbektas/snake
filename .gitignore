@@ -1,0 +1,36 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# SwiftPM
+.swiftpm/
+.build/
+
+# User settings
+*.xcuserdata
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.ipa
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Personal
+*.orig
+*.swp
+*.swo
+*.bak
+*.tmp
+

@@ -145,7 +145,7 @@ class SnakeGameViewModel: ObservableObject {
         bonusTimer = Timer.publish(every: 10, on: .main, in: .common)
             .autoconnect()
             .sink { [weak self] _ in
-                guard let self = self, !self.isGameOver else { return }  
+                guard let self = self, !self.isGameOver else { return }
                 self.bonusFoodPosition = nil
                 self.bonusTimer?.cancel()
             }
